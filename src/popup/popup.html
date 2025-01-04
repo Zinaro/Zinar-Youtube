@@ -1,0 +1,53 @@
+<!-- src/popup/popup.html -->
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zinar Youtube</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #004e4c; 
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 15px 25px;
+            margin: 10px;
+            border: none;
+            border-radius: 30px;
+            background-color: #0077b6;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: #023e8a;
+            transform: translateY(-3px);
+            box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+        }
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <h1><i>Zinar</i> Youtube</h1>
+    <button id="start-button">Start Zinar</button>
+    <button id="stop-button">Stop Zinar</button>
+    <script src="../../dist/popup/popup.js"></script>
+</body>
+
+</html>
